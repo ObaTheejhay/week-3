@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #926239;
+    line-height: 1.5;
+}
+
+#stuff{
+    background-image: url(../WEEK-2/pexels-polina-tankilevitch-3873176.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+    padding: 20px;
+    text-align: center;      
+}
+
+#stuff h1{
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+#stuff p{
+    font-size: 20px;
+}
+
+#stuff .button{
+    font-size:20px ;
+    text-decoration: none;
+    color:#926239 ;
+    border:  1px solid;
+    padding: 5px 8px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+#stuff .button:hover{
+    background: #926239;
+    color: #fff;
+}
+
+
+
+#section-b{
+    padding: 20px;
+    background: #0000ff;
+    color: #fff;
+    text-align: center;
+}
+
+#section-c{
+    display: flex;
+}
+
+section-c .box-1, section-c .box-3{
+    background:#0000ff ;
+    color: #fff;
+}
+
+section-c div{
+padding: 20px;
+}
+
+section-c .box-3{
+background: skyblue;
+}
+
+
+
+
+
+
+
